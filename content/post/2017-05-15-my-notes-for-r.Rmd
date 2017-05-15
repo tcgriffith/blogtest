@@ -1,0 +1,51 @@
+---
+title: My Notes For R
+author: TC
+date: '2017-05-15'
+slug: my-notes-for-r
+categories:
+  - R
+tags:
+  - notes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE, echo = FALSE,results = 'asis')
+
+download_and_or_load <- function(x) {
+  y <- x[!(x %in% installed.packages()[, "Package"])]
+  if (length(y)){
+  install.packages(y, dependencies = TRUE)
+  }
+  sapply(x, require, character.only = TRUE)
+}
+
+my_libraries <- c("ggplot2", "dplyr", "purrr","citr","knitr","xtable","pander")
+download_and_or_load(my_libraries)
+
+```
+
+
+> Live Dangerously.
+
+# Problem
+
+I ran into a strange problem today. From a deep buried memory I remember that R supports import from compressed gzip files. 
+
+So I compressed a tab file and tried to read it.
+
+```
+gzip ~/
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
