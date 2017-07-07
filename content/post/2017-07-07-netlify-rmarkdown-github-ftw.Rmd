@@ -1,0 +1,13 @@
+---
+title: netlify+rmarkdown+github FTW
+author: TC
+date: '2017-07-07'
+slug: netlify-rmarkdown-github-ftw
+categories:
+  - Trivial
+tags: []
+---
+
+## hmmm
+
+This post is to test if netlify is continuously updating my blogpost as declared. I'll update shortly if it succeeded.
