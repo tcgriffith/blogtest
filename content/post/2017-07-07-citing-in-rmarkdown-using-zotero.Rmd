@@ -1,0 +1,43 @@
+---
+title: Citing in Rmarkdown using zotero
+author: TC
+date: '2017-07-07'
+slug: citing-in-rmarkdown-using-zotero
+categories:
+  - R
+tags:
+  - R markdown
+  - citr
+  - zotero
+  - bibliography
+---
+
+## Motivations
+
+The advantage of using Rmarkdown as a replacement of Word, libreoffice or other editors is tremendous and perfect in my current workflow, in which R coding, visualization are recorded for reproducibility and presentation.
+
+For reports, manuscripts written in the academic style, sufficient reference is important because ~~we are scientist and that's what we do!~~ all arguements should be backed up by evidence. In order to make the citation process painless, I did the following process and works for me (for now).
+
+## Setup
+
+- Install Rstudio, R, Zotero
+
+- R Packages required: citr
+
+- Zotero plugin: betterbibtex, 
+
+And it's all set.
+
+## Workflow of adding citations
+Here is a typical scenario in my writing experience where citation is needed. 
+
+1. plan to write a topic or a section in the manuscript; Search a bunch of related papers, select & read them roughly, organize them in my own word. [Add useful articles in my zotero library]()
+
+2. write the part
+
+3. 
+
+## Summary
+
+
+
