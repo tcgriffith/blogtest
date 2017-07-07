@@ -11,3 +11,16 @@ tags: []
 ## hmmm
 
 This post is to test if netlify is continuously updating my blogpost as declared. I'll update shortly if it succeeded.
+
+*** `r Sys.time()` 
+It succeeded!
+
+## Summary
+
+workflow that works:
+
+- addins - new post - do the post
+
+- serve site, which generates an html in the ./content/ dir and lots of others in the ./public/ dir, only commit the html in the ./content/ dir because netlify will deploy again using hugo on the server side.
+
+- commit + push & wait for netlify to pick it up and deploy the changes.

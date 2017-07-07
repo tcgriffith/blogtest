@@ -16,4 +16,14 @@ tags: []
 <div id="hmmm" class="section level2">
 <h2>hmmm</h2>
 <p>This post is to test if netlify is continuously updating my blogpost as declared. I’ll update shortly if it succeeded.</p>
+<p>*** 2017-07-07 15:17:28 It succeeded!</p>
+</div>
+<div id="summary" class="section level2">
+<h2>Summary</h2>
+<p>workflow that works:</p>
+<ul>
+<li><p>addins - new post - do the post</p></li>
+<li><p>serve site, which generates an html in the ./content/ dir and lots of others in the ./public/ dir, only commit the html in the ./content/ dir because netlify will deploy again using hugo on the server side.</p></li>
+<li><p>commit + push &amp; wait for netlify to pick it up and deploy the changes.</p></li>
+</ul>
 </div>
